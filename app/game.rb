@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require_relative 'handshake'
 
 @greeting = SecretHandshake.new
@@ -6,4 +7,3 @@ require_relative 'handshake'
 @greeting.add_to_array
 @greeting.print_message
 @greeting.actions
-
