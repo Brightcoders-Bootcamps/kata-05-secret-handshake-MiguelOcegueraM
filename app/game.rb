@@ -4,5 +4,6 @@ require_relative 'handshake'
 @greeting = SecretHandshake.new
 @greeting.generate_instruction
 @greeting.add_to_array
+@greeting.print_message
 @greeting.actions
 

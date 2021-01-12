@@ -8,9 +8,12 @@ class SecretHandshake
     end
 
     def generate_instruction 
-        @instruction = rand(0..254).to_i
-        @instruction
-        print "You said " + @instruction.to_s + "  and is:  "        
+        @instruction = rand(0..254)
+        puts @instruction
+    end
+
+    def print_message
+        print "You said " + @instruction.to_s + "  and is:  "
     end
 
     def add_to_array
